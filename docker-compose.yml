@@ -15,9 +15,3 @@ services:
     image: redis:latest
     ports:
       - "6379:6379"
-  app:
-    image: app
-    build:
-      context: .
-    ports:
-      - "8000:8000"
